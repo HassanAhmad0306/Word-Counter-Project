@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: #006780;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+body{
+    background: linear-gradient(135deg, #a8e6cf, #dcedc1);
+}
+.word-container{
+    /* border: 2px solid red; */
+    max-width: 80%;
+    padding: 0;
+    margin: 5rem auto;
+}
+#textbox{
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+}
+#textbox:focus{
+    outline: #006780;
+}
+p{
+    font-size: 30px;
+    /* color: blue; */
+    font-weight: bold;
+    background-color: #006780;
+    padding: 10px;
+    color: white;
+    margin: 0 !important;
+    text-align: center;
+}
